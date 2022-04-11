@@ -1,0 +1,45 @@
+body{
+    background:blueviolet; 
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+                  
+li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+}
+                
+li a{
+    text-decoration:none;
+    display:contents;
+    padding:5px 10px;
+    width:200px;
+    height:50px;
+    border:1px solid #004007;
+    color:#00400c;
+    background-color: white;
+}
+            
+    li a:hover{
+    color:rgb(0, 0, 0);
+    background-color:#fff;
+                
+    }
+    
+    nav li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:120px;
+    }
+            
+    nav li:hover ul{display:block;}
+
+    h1{
+        color:#fff;
+    }
